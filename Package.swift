@@ -15,7 +15,6 @@ let package = Package(
         .target(
             name: "LYEmptyView",
             path: "LYEmptyView",
-            sources: ["**/*.m", "**/*.h"],
             publicHeadersPath: "."
         )
     ],
