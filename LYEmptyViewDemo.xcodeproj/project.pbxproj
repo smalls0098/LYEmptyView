@@ -379,6 +379,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -605,7 +606,7 @@
 				DEVELOPMENT_TEAM = EQXM5L9243;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/LYEmptyViewDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = LYEmptyViewDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.liyang.empty;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -623,7 +624,7 @@
 				DEVELOPMENT_TEAM = EQXM5L9243;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/LYEmptyViewDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = LYEmptyViewDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.liyang.empty;
 				PRODUCT_NAME = "$(TARGET_NAME)";
