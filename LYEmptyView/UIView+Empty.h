@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+@class LYEmptyView;
+
 @interface UIView (Empty)
 
 /**
