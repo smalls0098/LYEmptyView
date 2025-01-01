@@ -15,7 +15,7 @@
 /**
  空页面占位图控件
  */
-@property (nonatomic, strong) LYEmptyView *ly_emptyView;
+@property (strong, nonatomic, nullable) LYEmptyView *ly_emptyView;
 
 ///////////////////////
 ///////////////////////
@@ -28,6 +28,7 @@
  当调用ly_endLoading方法时，ly_endLoading方法内部会根据当前的tableView/collectionView的
  DataSource来自动判断是否显示emptyView
  */
+#pragma mark - other
 - (void)ly_startLoading;
 
 /**
@@ -35,6 +36,7 @@
  注意:ly_endLoading 的调用时机，有刷新UI的地方一定要等到刷新UI的方法之后调用，
  因为只有刷新了UI，view的DataSource才会更新，故调用此方法才能正确判断是否有内容。
  */
+#pragma mark - other
 - (void)ly_endLoading;
 
 
@@ -43,11 +45,13 @@
 /**
  手动调用显示emptyView
  */
+#pragma mark - other
 - (void)ly_showEmptyView;
 
 /**
  手动调用隐藏emptyView
  */
+#pragma mark - other
 - (void)ly_hideEmptyView;
 
 @end
